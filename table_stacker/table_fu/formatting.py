@@ -19,7 +19,7 @@ def _saferound(value, decimal_places):
         f = float(value)
     except ValueError:
         return ''
-    format = '%%.%df' % decimal_places
+    format = '%%,%df' % decimal_places
     return format % f
 
 
@@ -158,7 +158,7 @@ def intcomma(value):
     For example, 3000 becomes '3,000' and 45000 becomes '45,000'.
     """
     orig = str(value)
-    new = re.sub("^(-?\d+)(\d{3})", '\g<1>,\g<2>', orig)
+    new = re.sub("^(-?\d+)(\d{3})", '\g<1>&#039;\g<2>', orig)
     if orig == new:
         return new
     else:
