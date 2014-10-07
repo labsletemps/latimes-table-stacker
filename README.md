@@ -2,8 +2,6 @@
 
 Publish spreadsheets as interactive tables. And do it on deadline.
 
-[![Build Status](https://travis-ci.org/datadesk/latimes-table-stacker.png?branch=master)](https://travis-ci.org/datadesk/latimes-table-stacker) [![Coverage Status](https://coveralls.io/repos/datadesk/latimes-table-stacker/badge.png)](https://coveralls.io/r/datadesk/latimes-table-stacker)
-
 Features
 --------
 
